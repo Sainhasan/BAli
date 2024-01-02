@@ -2,9 +2,15 @@
 .navbar {
     z-index: 1;
     position: relative;
-    font-family: viga;
-    
+    font-family: viga;    
 }
+
+.nav1 {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .navbar-brand {
     font-family: viga;
     font-size: 32px;
