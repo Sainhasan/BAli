@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var navbar = document.querySelector('.custom-navbar');
 
     window.addEventListener('scroll', function() {
-        if (window.pageYOffset > 100) {
+        if (window.pageYOffset > 5) {
             navbar.classList.add('scrolled');
         } else {
             navbar.classList.remove('scrolled');
